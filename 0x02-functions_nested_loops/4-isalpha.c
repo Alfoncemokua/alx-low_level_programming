@@ -1,13 +1,14 @@
 #include "main.h"
 /**
- * main Entry point
- * Description: 'checks if character is alphabet'
- * Return: Always 0
+ * _isalpha - functions that checks for alphabets
+ *
+ * @c: parameter to be checked
+ * Return: 1 if it is an alphabet
+ * and 0 otherwise
  */
 int _isalpha(int c)
 {
-	if ((c >= 'a' && c <= 'z') ||
-	    (c >= 'A' && c <= 'Z'))
+	if ((c >= 97 && c <= 122) || (c >= 65 && c <= 90))
 		return (1);
 	else
 		return (0);
