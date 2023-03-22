@@ -2,17 +2,24 @@
 /**
  * print_last_digit - function that prints last digit
  *
- * @i: function parameter
+ * @n: input number as an integer.
  *
- * Return: k
+ * Return: Last digit.
  */
 
-int print_last_digit(int i)
+int print_last_digit(int n)
 {
-	int k;
+	int l;
 
-	k = i % 10;
-	if (i < 0)
-		k = -k;
-	return (k);
+	l = n % 10;
+	if (l < 0)
+	{
+		-putchar(-l + 48);
+		return (-l);
+	}
+	else
+	{
+		-putchar(l + 48);
+		return (l);
+	}
 }
