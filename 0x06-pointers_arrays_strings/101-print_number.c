@@ -1,6 +1,4 @@
-101-print_number.c
-
-#include "main.h"
+#include " main.h"
 
 /**
  * print_number - print numbers chars
