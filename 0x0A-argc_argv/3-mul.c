@@ -17,7 +17,6 @@ int _atoi(char *s)
 	d = 0;
 
 	n = 0;
-	
 	len = 0;
 
 	f = 0;
@@ -51,18 +50,20 @@ int _atoi(char *s)
 	if (f == 0)
 
 	return (0);
+
 	return (n);
-}	
+}
 /**
  * main - multiplies two numbers
  * @argc: number of arguments
  * @argv: array of arguments
- * 
+ *
  * Return: 0 (Success), 1 (Error)
  */
 int main(int argc, char *argv[])
 {
 	int result, num1, num2;
+
 	if (argc < 3 || argc > 3)
 	{
 	printf("Error\n");
